@@ -1,0 +1,3 @@
+# A note in learning NodeJS
+## learning...
+   1. install node
