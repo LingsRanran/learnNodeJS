@@ -1,0 +1,22 @@
+{
+  "name": "ran",
+  "version": "1.0.0",
+  "description": "1. install node\r    2. use npm to install some module(cnpm use registry.npm.taobao.org)",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingsRanran/learnNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LingsRanran/learnNodeJS/issues"
+  },
+  "homepage": "https://github.com/LingsRanran/learnNodeJS#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
