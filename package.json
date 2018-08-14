@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/LingsRanran/learnNodeJS#readme",
   "dependencies": {
-    "request": "^2.87.0"
+    "gulp": "^3.9.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
   }
 }

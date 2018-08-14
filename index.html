@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //打印*
+    const printDot = (num) => {
+        let res = '';
+        for(let i = 1; i <= num; i++){
+            res += '*';
+        }
+
+        return res;
+    }
+
+    //打印空格
+    const printSpace = (num) => {
+        let res = '';
+        for(let i = 1; i <= num; i++){
+            res += ' ';
+        }
+
+        return res;
+    }
+
+    const maxDot = 7;
+    for(let i = 3; i >= -3; i--){
+        console.log(printSpace(Math.abs(i)) + printDot(maxDot - Math.abs(i) * 2));
+    }
+
+    let str = 'EBADPLATFORM';
+
+    console.log(str.toLowerCase());
+</script>
+</html>
