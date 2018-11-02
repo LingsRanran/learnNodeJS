@@ -18,7 +18,8 @@
   "homepage": "https://github.com/LingsRanran/learnNodeJS#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.9.1",
+    "minimatch": ">=3.0.2"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
